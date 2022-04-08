@@ -10,6 +10,36 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 class AppTest {
+    /* boolean[] 
+        emptyArr=new boolean[]{},
+        arrOfTrue=new boolean[]{true},
+        arrOfTrueFalse=new boolean[]{true,false},
+        arrOfTrueTrue=new boolean[]{true,true},
+        arrOfTrueTrueCopy=new boolean[]{true,true};
+    @Test
+    public void testSameReferenceReturnsTrue(){
+        assertTrue(App.equals(emptyArr, emptyArr));  
+    }
+
+    @Test
+    public void testEqualArrays(){
+        assertTrue(App.equals(arrOfTrueTrue, arrOfTrueTrueCopy));
+    }
+   
+    @Test
+    public void testDifLengthArrays(){
+        assertFalse(App.equals(arrOfTrueTrue, arrOfTrue));
+    }
+    @Test
+    public void testSameLengthDifItemsArrays(){
+        assertFalse(App.equals(arrOfTrueTrue,arrOfTrueFalse));
+    } 
+    @Test
+    public void testNullArrays(){
+        assertFalse(App.equals(null,arrOfTrue));
+    } */
+
+
     @Test void appHasAGreeting() {
         App classUnderTest = new App();
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
